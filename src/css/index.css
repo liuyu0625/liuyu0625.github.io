@@ -1,0 +1,504 @@
+/* 轮播图开始 */
+.wrap_rot{
+    position: relative;
+    height:600px;
+}
+.btn{
+    position: absolute;
+    height: 14px;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -50px;
+    z-index: 9;
+}
+.btn span{
+    float:left;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 9px;
+    background: #64514f;
+}
+.content{
+    width:100%;
+    height: 600px;
+    position: relative;
+}
+.content .box{
+    position: absolute;
+    width: 100%;
+    height:600px;
+    display: none; 
+}
+.box img{
+    width:100%;
+    height:100%;
+}
+.prev,.next{
+    width: 45px;
+    height: 70px;
+    position: absolute;
+    left: 192px;
+    top:264px;
+    display: none;
+    z-index:999999;
+    cursor: pointer;
+}
+.prev{
+    background: url(../img/prev_54.png) no-repeat left top;
+}
+.next{
+    left:100%;
+    margin-left:-240px ;
+    background: url(../img/next_54.png) no-repeat left top;
+}
+.btn .wrap_on{
+    background: #ff8a81;
+}
+.box.current{
+    display: block;
+    z-index: 2; 
+}
+/* 商品开始 */
+.gs_wht_wp {
+    width: 100%;
+    overflow: hidden;
+    background:#fff;
+}
+.g_main{
+    margin: 55px auto 0;
+    width: 1180px;
+}
+.g_diy_shw{
+    float: left;
+    background: #f7f7f7;
+    width: 580px;
+    padding-bottom: 46px;
+}
+.g_diy_shw .u_st_tlt {
+    font-size: 26px;
+    margin: 0;
+    padding: 45px 0 27px;
+}
+.u_st_tlt {
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: 2px;
+}
+/* 戒指的样式 */
+.g_diy_shw_focus{
+    width: 352px;
+    height: 190px;
+    margin:24px auto 0;
+    overflow: hidden;
+    position: relative;
+    z-index:0;
+}
+.g_diy_shw_focus div{
+    width: 352px;
+    height: 190px;
+    margin:24px auto 0;
+    overflow: hidden;
+    position: absolute;
+    z-index:0;
+}
+.g_diy_shw_focus div.u_diy_1{
+    background:url(../img/diy_1.jpg) center no-repeat;
+    z-index: 2;
+}
+.g_diy_shw a.u_pnk_btn:first-of-type {
+    margin-bottom: 12px;
+}
+.g_diy_shw a.u_pnk_btn {
+    width: 204px;
+    height: 34px;
+    line-height: 34px;
+    display: block;
+    margin: 0 auto;
+}
+.u_pnk_btn{
+    background: #f6827a;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+.g_diy_shw_pic {
+    float: right;
+    width: 578px;
+    height: 442px;
+    position: relative;
+}
+/* 秒杀功能 */
+.timeing{
+    padding:8px;
+    position: absolute;
+    left:190px;
+    top:1300px;
+    font-size: 20px;
+    color:#333;
+    background: #ccc;
+    opacity: 0.8;
+}
+.timeing span{
+    color:rgb(243, 54, 41);
+}
+.timeing img{
+    margin-left: 30px;
+}
+/* 系列产品 */
+.g_tab_wp{
+    background: #feb8ae;
+    text-align: center;
+    margin-top: 45px;
+}
+.g_tab_wp em{
+    color: #fff;
+    font-size: 12px;
+    line-height: 37px;
+    display: inline-block;
+    width: 106px;
+    cursor: pointer;
+}
+/* 添加on类名，会改变当前的字体*/
+.g_tab_wp em.on{
+    color: #000;
+} 
+/* 图片显示 */
+.g_tab_cnt{
+    width: 100%;
+    height: 696px;
+    text-align: left;
+    margin-top: 20px;
+    display: none;
+}
+.g_tab_cnt.show{
+    display: block;
+}
+.g_tab_cnt span{
+    float: left;
+    width: 700px;
+    position: absolute;
+    padding-right: 15px;
+}
+.g_tab_cnt span a:first-of-type{
+    margin-bottom: 13px;
+}
+.g_tab_cnt a{
+    float: right;
+    display: block;
+}
+.g_tab_cnt .g_tab_img img{
+    width: 464px;
+    height: 696px;
+}
+/* 婚戒推荐&&全球美钻  */
+.u_st_tlt i {
+    background: url(../img/icon_and.jpg) center no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 19px;
+    vertical-align: middle;
+    padding: 0 6px;
+}
+.f_rng_focus_wp {
+    position: relative;
+    z-index: 0;
+    width: 1180px;
+    margin: 45px auto 0;
+}
+.f_rng_focus {
+    width: 1096px;
+    overflow: hidden;
+    height: 193px;
+    position: relative;
+    z-index: 0;
+    margin: 0 auto;
+}
+.f_rng_focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2200px;
+}
+.f_rng_focus ul li {
+    width: 240px;
+    height: 193px;
+    float: left;
+    padding: 0 17px;
+}
+.f_rng_focus ul li a {
+    display: inline-block;
+    margin-top: 0;
+}
+.f_rng_focus ul li img{
+    position: relative;
+    left:0;
+    top:0;
+}
+/* 左右箭头 */
+#u_rngs_prev {
+    background-position: -37px 0;
+}
+#u_rngs_prev, #u_rngs_prev.on {
+    left: -35px;
+}
+#u_rngs_prev, #u_rngs_next, #u_rngs_prev.on, #u_rngs_next.on {
+    width: 37px;
+    height: 51px;
+    display: block;
+    position: absolute;
+    top: 16%;
+    background: url(../img/icon_prev.jpg) no-repeat;
+}
+#u_rngs_next {
+    background-position: 0 -51px;
+    cursor: pointer;
+}
+#u_rngs_next, #u_rngs_next.on {
+    right: -35px;
+}
+/* 戒指列表轮播图 */
+.gs_gray_wp {
+    background: #f5f5f5;
+    width: 100%;
+    overflow: hidden;
+}
+.g_shp_wp {
+    background: #f5f5f5;
+    text-align: center;
+    padding: 50px 0;
+}
+.g_shp_wp a{
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #b7b7b7;
+    font-size: 11px;
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+.g_shp_wp a i {
+    display: block;
+    background: url(../img/icon_shape.jpg) no-repeat;
+    height: 49px;
+    margin-bottom: 8px;
+}
+.g_shp_wp a.u_shp_1 i {
+    background-position: 0 0;
+    width: 104px;
+}
+.g_shp_wp a.u_shp_1 i:hover {
+    background-position: 0 -49px;
+}
+.g_shp_wp a.u_shp_2 i {
+    background-position: -104px 0;
+    width: 104px;
+}
+.g_shp_wp a.u_shp_2 i:hover {
+    background-position: -104px -49px;
+}
+.g_shp_wp a.u_shp_3 i {
+    background-position: -208px 0;
+    width: 98px;
+}
+.g_shp_wp a.u_shp_3 i:hover {
+    background-position: -208px -49px;
+}
+.g_shp_wp a.u_shp_4 i {
+    background-position: -306px 0;
+    width: 91px;
+}
+.g_shp_wp a.u_shp_4 i:hover{
+    background-position: -306px -49px;
+}
+.g_shp_wp a.u_shp_5 i {
+    background-position: -397px 0;
+    width: 92px;
+}
+.g_shp_wp a.u_shp_5 i:hover{
+    background-position: -397px -49px;
+}
+.g_shp_wp a.u_shp_6 i {
+    background-position: -489px 0;
+    width: 105px;
+}
+.g_shp_wp a.u_shp_6 i:hover{
+    background-position: -489px -49px;
+}
+.g_shp_wp a.u_shp_7 i {
+    background-position: -594px 0;
+    width: 86px;
+}
+.g_shp_wp a.u_shp_7 i:hover {
+    background-position: -594px -49px;
+}
+.g_shp_wp a.u_shp_8 i {
+    background-position: -680px 0;
+    width: 91px;
+}
+.g_shp_wp a.u_shp_8 i:hover{
+    background-position: -680px -49px;
+}
+.g_shp_wp a.u_shp_9 i {
+    background-position: -771px 0;
+    width: 109px;
+}
+.g_shp_wp a.u_shp_9 i:hover{
+    background-position: -771px -49px;
+}
+.g_shp_wp a.u_shp_10 i {
+    background-position: -880px 0;
+    width: 110px;
+}
+.g_shp_wp a.u_shp_10 i:hover{
+    background-position: -880px -49px;
+}
+/* 品牌故事 */
+.f_ad_wp span {
+    display: block;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.f_ad_wp span a {
+    display: block;
+    float: left;
+}
+.f_ad_wp span a.g_tab_cnt_spe_a {
+    margin-right: 15px;
+}
+/* 右侧小轮播图 */
+.stores_wp {
+    width: 1180px;
+    margin: 15px auto 0;
+}
+.tab_city_pic{
+    width: 1180px;
+    background: #fdeaea;
+    height: 530px;
+    position: relative;
+    z-index: 0;
+}
+.tab_city_pic_focus.animateTShell{
+    width: 700px;
+    height: 530px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 0;
+}
+.tab_city_pic_focus.animateTShell .animate{
+    width: 700px;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+}
+.ani_ul .ani_li{
+    width: 700px;
+    height: 530px;
+    float: left;
+    position: absolute;
+    display: none;
+}
+/* 添加show这个类名会让图片显示 */
+.ani_li.show{
+    display: block;
+}
+.tab_city_pic_focus.animateTShell .animate .ani_ul .ani_li img{
+    width: 700px;
+    height: 530px;
+}
+.tab_city_pic_focus.animateTShell{
+    width: 700px;
+    height: 530px;
+}
+.tab_city_pic_focus .disc_border{
+    width: 700px;
+    height: 20px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    left: 0;
+    bottom: 10px;
+    text-align: center;
+    z-index: 1;
+}
+.tab_city_pic_focus .disc{
+    width: 12px;
+    height: 12px;
+    margin: 2px 3px;
+    display: inline-block;
+    cursor: pointer;
+    background:#f8f8f8;
+    border-radius: 50%;
+}
+/* 添加disc_hover这个类名让小圆点的背景色改变 */
+.disc.disc_hover{
+    background: pink;
+}
+
+.city_img{
+    background: url(../img/img.jpg) no-repeat left center;
+    width: 312px;
+    height: 318px;
+    position: absolute;
+    right: 85px;
+    top: 107px;
+    z-index: 1;
+}
+.city_img a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+
+
+/* 钻石课堂 */
+.f_news_wp {
+    width: 1180px;
+    margin: 45px auto 75px;
+    text-align: left;
+    overflow: hidden;
+}
+.f_news {
+    width: 310px;
+    float: left;
+    padding-left: 20px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 322px;
+}
+.f_news dl {
+    padding: 20px 0;
+}
+.f_news dl dt {
+    font-size: 12px;
+    color: #000;
+    padding: 27px 0 19px;
+}
+.f_news dl dd a {
+    color: #333;
+    font-size: 12px;
+    line-height: 28px;
+}
+.a_lnk_newsall a {
+    color: #333;
+    font-size: 12px;
+}
+.f_ad_pic {
+    width: 480px;
+    height: 324px;
+    float: right;
+    position: relative;
+}
+.f_news_wp a:hover{
+    color:red;
+}
+

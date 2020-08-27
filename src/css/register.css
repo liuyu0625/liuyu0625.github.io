@@ -1,0 +1,129 @@
+.auth_bg_new {
+    background: url(../img/auth_bg_new.jpg) no-repeat center top;
+}
+.auth_bg {
+    width: 100%;
+    height: 601px;
+    overflow: hidden;
+}
+.login_border {
+    width: 1180px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.login_left {
+    width: 728px;
+    height: 688px;
+    float: left;
+    position: relative;
+}
+.auth_bar_right {
+    width: 366px;
+    /* height: 600px; */
+    float: right;
+    position: relative;
+    padding-right: 50px;
+    padding-top: 60px;
+    margin-top: 37px;
+}
+.skip_logina {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    font-family: '宋体';
+    position: absolute;
+    right: 100px;
+    top: 99px;
+    z-index: 5;
+}
+.skip_logina i {
+    font-style: normal;
+    color: #ff8a81;
+    padding-left: 10px;
+}
+.skip_logina2 {
+    display: block;
+    color: #000;
+    font-size: 20px;
+    font-family: '宋体';
+    position: absolute;
+    left: 0px;
+    top: 92px;
+    z-index: 5;
+}
+.form_reg{
+    margin-top: 65px;
+    background: #fcede9;
+    width: 290px;
+    height: 310px;
+    padding-top: 45px;
+    padding-left: 30px;
+    padding-bottom: 42px;
+    text-align: left;
+}
+.form_reg .alert{
+    position: absolute;
+    width: 76%;
+    height: 40px;
+    margin: 0 auto;
+    top:36px;
+    left:-4px;
+    /* opacity: 0.4; */
+    padding-left: 10px;
+    color:#000;
+    font-size:15px;
+    line-height: 40px;
+}
+.alert-success{
+    color:#fff;
+    background: rgb(58, 184, 235);
+    display: none;
+}
+.alert-danger{
+    color:#fff;
+    background: #e93023;
+    display: none;
+}
+.alert-tip{
+    background: #dddd2e;
+    display:none;
+}
+.form_reg input{
+    border:0;
+    outline: none;
+    height: 34px;
+    width: 267px;
+    background: #fff;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding: 3px 0px 3px 12px;
+}
+.input_w04{
+    line-height: 17px;
+    margin-bottom: 17px;
+}
+.input_w04 span{
+    float: left;
+    width: 13px;
+    height: 13px;
+    background:url(../img/login_phase.jpg) no-repeat 0 0;
+    margin-top: 3px;
+    margin-right: 5px;
+    display: block;
+}
+.input_w04 a{
+    float: right;
+    margin-right:54px;
+    text-decoration: underline;
+}
+.input_w04 span:hover{
+    background-position:-13px 0;
+}
+.form_reg .btn_register{
+    background: #ff9991;
+    color: #fff;
+    margin-top: 5px;
+    padding-left: 0px;
+}

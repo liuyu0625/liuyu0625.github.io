@@ -1,0 +1,559 @@
+/* 顶部开始 */
+.wrap_top{
+    background: #f8e3df;
+}
+.top{
+    height: 34px;
+    background: #f8e3df;
+}
+.top_l h1{
+    float:left;
+    height: 34px;
+    line-height: 34px;
+    font-weight: normal;
+    color: #333;
+    margin-right: 12px;
+}
+.top_l h1 .user{
+    color:#ff8a81;
+    margin:0px 10px;
+}
+.top_l a{
+    float:left;
+    width: auto;
+    height: 34px;
+    line-height: 34px;
+    display: block;
+    margin-left: 10px;
+    color:#333;
+}
+.top_l a:hover{
+    color:#f99;
+}
+.top_r{
+    width: auto;
+    height: 34px;
+}
+.top_r ul{
+    float: right;
+}
+.top_r ul>li{
+    float: left;
+    width: 58px;
+    height: 33px;
+    line-height: 32px;
+    margin-left: 8px;
+}
+#myCar{
+    width: 105px;
+    position: relative;
+}
+.myCar{
+    position: absolute;
+    width: 105px;
+    height:32px;
+    z-index: 9;
+    border-top:1px solid #f8e3df;
+    border-left:1px solid #f8e3df;
+    border-right:1px solid #f8e3df;
+}
+.myCar a:hover{
+    color:#f99;
+}
+.car_goods{
+    width: 220px;
+    height: 68px;
+    position: absolute;
+    border:1px solid red;
+    text-align: center;
+    color:#666;
+    background: #fff;
+    line-height: 60px;
+    top:32px;
+    display: none;
+}
+.myCar img{
+    float:left;
+    margin-top: 7px;
+    margin-right: 10px;
+    padding-left: 7px;
+    margin-left: 0;
+}
+#my_count{
+    width: 20px;
+    height: 32px;
+    text-align: center;
+    float: left;
+    font-size: 13px;
+    color: #ff8a81;
+    font-weight: bold;
+}
+.myCar a{
+    float:left;
+    width: auto;
+    height: 32px;
+    color: #333;
+    display: block;
+    text-align: center;
+}
+.indexw_header_arrow{
+    width: 5px;
+    height: 4px;
+    float: left;
+    margin-top: 14px;
+    background: url('../img/icon_drop.png') no-repeat left top;
+}
+.arrow_hover{
+    width: 73px;
+}
+#my_nest{
+    width: 68px;
+    padding-left:8px;
+    border-top: 1px solid #f8e3df;
+    border-left:1px solid #f8e3df;
+    border-right:1px solid #f8e3df;
+    position: relative;
+}
+#my_nest.nest_border{
+    border-top: 1px solid #f10;
+    border-left:1px solid #f10;
+    border-right:1px solid #f10;
+    background: #fff;
+}
+#my_nest>a{
+    width: 58px;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    color: #333;
+    float: left;
+}
+#my_nest ol{
+    width: 68px;
+    position: absolute;
+    padding:2px 0px 2px 8px;
+    left:-1px;
+    top:33px;
+    text-align:left;
+    line-height:24px;
+    display: none;
+    background: #fff;
+    border-bottom: 1px solid #f10;
+    border-left:1px solid #f10;
+    border-right:1px solid #f10;
+}
+#my_nest ol a:hover{
+    color:#f99
+}
+.mobile_net{
+    position: relative;
+}
+.first_net{
+    position: absolute;
+    right:0;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-left:2px;
+    z-index: 10;
+    border-top:1px solid #f8e3df;
+    border-left:1px solid #f8e3df;
+    border-right:1px solid #f8e3df;
+}
+.mobile_net .mobile{
+    position: absolute;
+    right:0px;
+    top:33px;
+    z-index: 9;
+    border:1px solid #f10;
+    display: none;
+}
+.mycar_border{
+    border-top:1px solid red;
+    border-left:1px solid red;
+    border-right:1px solid red;
+    background: #fff;
+}
+/* 头部开始 */
+.wrap_header{
+    height: 95px;
+    background: #fbf2f1;
+    overflow: hidden;
+}
+.header{
+    height: 95px;
+    background: #fbf2f1;
+}
+.indexw_slogan{
+    width: 166px;
+    height: 15px;
+    overflow: hidden;
+    float: left;
+    margin-left: 48px;
+    margin-top: 41px;
+    background: url('http://img.zbird.cn/ww3/pubheaderfooter/pcslogan.png') no-repeat left top
+}
+.header .logo{
+    float:left;
+}
+.header .logo a{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.logo img{
+    float: left;
+    margin-top:28px;
+    margin-left:35px;
+}
+.ipt_r{
+    float:right;
+}
+.ipt_r form{
+    border:1px solid #ccc;
+    width: 196px;
+    height: 30px;
+    margin-top: 38px;
+    margin-right: 8px;
+}
+.ipt_r input{
+    width: 146px;
+    height: 16px;
+    float: left;
+    border: none;
+    color: #999;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 7px 0 7px 10px;
+    margin: 0;
+}
+.ipt_r a{
+    float: left;
+    width: 40px;
+    height: 30px;
+    background:url(../img/icon_ser.jpg) no-repeat center center;
+    overflow: hidden;
+    color: #fff !important;
+    line-height: 30px;
+}
+/* 导航开始 */
+.wrap_nav{
+    height: 33px;
+    background: #909090;
+    position: relative;
+}
+.nav{
+    height: 33px;
+    width: 1180px;
+    margin:0 auto;
+    background: #909090;
+}
+.nav ul{
+    float: left;
+}
+.nav a{
+    color: #fff;
+}
+.nav_li{
+    float:left;
+    height: 33px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 33px;
+    width: 97px;
+    text-align: center;
+    letter-spacing: 1px;   
+}
+.nav_li .down_select{
+    position: absolute;
+    left:0;
+    top:33px;
+    width: 100%;
+    z-index:12;
+    background: #ffffff;
+    display: none;
+    height:340px;
+}
+.down_box{
+    margin-left: 160px;
+}
+.down_select .down_left{
+    float:left;
+    margin:26px 0px;
+    text-align: left;
+    border-right:2px solid #ccc;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    height: 280px;
+}
+.down_left h3 a{
+    color: #000;
+    font-size: 24px;
+    font-family: Arail,"宋体";
+}
+.down_left span{
+    color: #666;
+    letter-spacing: 1px;
+    display: block;
+}
+.down_left span a{
+    color: #666;
+    letter-spacing: 1px;
+    display: block;
+}
+.down_left span a:hover{
+    color: #f99;
+}
+.down_box ol{
+    float: left;
+    font-family: Arial;
+}
+.down_left ol:nth-of-type(2){
+    padding:0px 88px 0px 60px;
+}
+.down_box ol li{
+    color: #666;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin:3px 0;
+}
+.down_box ol li a{
+    display: block;
+    line-height: 26px;
+    color: #666;
+    text-align: left;
+}
+.down_select .down_right{
+    margin-left: 12px;
+    float:left;
+    margin-top:30px;
+    padding-left:10px;
+}
+ .down_select .down_right img{
+   float: left;
+}
+.down_right ol{
+    float:left;
+    margin-top: 60px;
+     padding:0px 10px;
+}
+.indexw_nav_a_hover{
+    background: #fdb2a4;
+}
+.subnav{
+    float:right;
+}
+.subnav a{
+    float: left;
+}
+.down_box ol li a:hover{
+    color:#f99;
+}
+/* 右侧固定导航 */
+.services {
+    position: fixed;
+    top: 32%;
+    right: 0;
+    z-index: 100;
+    width: 67px;
+}
+.ser_img{
+    background: url(../img/img.png) left center no-repeat;
+    width: 88px;
+    height: 95px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -94px;
+}
+.ser_lnk1{
+    background:url(../img/1.gif) left center no-repeat;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.ser_lnk1:hover{
+    background: url(../img/1_2.gif) left center no-repeat;
+}
+.ser_lnk2{
+    background: url(../img/2.jpg) left center no-repeat;
+}
+.ser_lnk2:hover{
+    background: url(../img/2_2.jpg) left center no-repeat;
+}
+.ser_lnk3{
+    background:url(../img/3.jpg) left center no-repeat;
+}
+.ser_lnk3:hover{
+    background: url(../img/3_2.jpg) left center no-repeat;
+}
+.ser_lnk4{
+    background:url(../img/4.jpg) left center no-repeat;
+}
+.ser_lnk4:hover{
+    background:url(../img/4_2.jpg) left center no-repeat;
+}
+.ser_lnk5{
+    background:url(../img/5.jpg) left center no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.ser_lnk5:hover em {
+    display: block;
+}
+.ser_lnk5 em{
+    position: absolute;
+    left: -207px;
+    z-index: 1;
+    bottom: 0;
+    background: url(../img/code.jpg) left center no-repeat;
+    width: 206px;
+    height: 135px;
+    display: none;
+}
+.ser_lnk1, .ser_lnk2, .ser_lnk3, .ser_lnk4, .ser_lnk5{
+    width: 67px;
+    height: 67px;
+    display: block;
+    margin-bottom: 1px;
+}
+
+/* 尾部开始 */
+.footer{
+    background: #fdf2ec;
+}
+.service{
+    height: 160px;
+    background: #fdf2ec;
+    position: relative;
+}
+.indexw_foot_service_left{
+    width: 85px;
+    height: 90px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 44px;
+    display: block;
+    background: url(../img/logo85x90.jpg) no-repeat;
+}
+.indexw_foot_service_middle{
+    float: left;
+    margin-top: 37px;
+    margin-left: 82px;
+    height: 110px;
+    background:#fdf2ec;
+} 
+.indexw_foot_service_middle ul {
+    width: 144px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+.indexw_foot_service_middle ul li {
+    float: left;
+}
+.indexw_foot_service_middle ul li span {
+    width: 96px;
+    height: 23px;
+    display: block;
+    color: #666666;
+    font-size: 12px;
+    text-align: left;
+}
+.indexw_foot_service_middle ul li a {
+    width: 96px;
+    line-height: 22px;
+    color: #999999;
+    display: block;
+    text-align: left;
+}
+.indexw_foot_service_right {
+    width: 214px;
+    height: 120px;
+    float: right;
+    margin-top: 30px;
+    margin-left: 6px;
+    background: url(../img/web_code.jpg) no-repeat;
+    position: relative;
+}
+.indexw_foot_other{
+    width: 100%;
+    background: #fdf2ec;
+}
+.indexw_foot_other dt {
+    width: 1180px;
+    margin: 0 auto;
+    text-align: left;
+    color: #999;
+    overflow: hidden;
+}
+.ft_consult {
+    text-align: center;
+    padding: 21px 0;
+}
+.ft_consult a {
+    margin-left: 46px;
+    background:#fdf2ec url(../img/fot_consult.jpg) left center no-repeat;
+    background-size: cover;
+    width: 488px;
+    height: 60px;
+    display: inline-block;
+}
+.indexw_foot_other dt div {
+    width: 1180px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    line-height: 36px;
+    text-align: center;
+}
+.indexw_foot_other dt div a {
+    line-height: 33px;
+    margin: 0;
+    padding: 0;
+    color: #999;
+    text-decoration: none;
+}
+.indexw_foot_other dt div span {
+    padding: 0 8px 0 10px;
+}
+.com{
+    text-align: center;
+}
+.indexw_friend_link {
+    width: 950px;
+    height: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+    color: #BABABA;
+    line-height: 25px;
+}
+.indexw_friend_link ul {
+    width: 950px;
+    height: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.indexw_friend_link li a {
+    color: #999999;
+}
+.indexw_friend_link ul li span {
+    color: #999;
+}
+.indexw_foot_other .img {
+    width: 980px;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    color: #9FB1BA;
+    padding-left: 47px;
+    padding-top: 13px;
+    text-align: center;
+}
+.indexw_foot_other .img img{
+    width: 116px;
+    height: 35px;
+}
+.footer a:hover{
+    color:red;
+}
